@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* =======THE NAV STYLE========= */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid rgb(184, 184, 184);
+}
+.moh{
+    font-family: 'Miltonian Tattoo', cursive;
+    cursor: pointer;
+}
+.moh-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.mail{
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+
+
+/* THE MAIN BODY CONTENT STYLES */
+.web-dev{
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.dev-craft{
+    color: #544F51;
+    font-size: .8em;
+}
+
+.work-btn{
+    padding: .6em 2em .6em 2em;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 2rem 0 3rem 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.work-btn:hover{
+    background-color: #181818;
+    color: antiquewhite;
+    transition: background-color 0.9s;
+    animation: pulse 1s infinite;
+}
+
+/* KEY FRAME FOR THE PULSATING BUTTON */
+@keyframes pulse {
+    0% {
+      transform: scale(1); /* Initial size */
+    }
+    50% {
+      transform: scale(1.1); /* Slightly larger size */
+    }
+    100% {
+      transform: scale(1); /* Back to the initial size */
+    }
+  }
+
+
+
+/* ===================SECTION 2==================== */
+.tools{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.html-img, .css-img, .js-img, .react-img{
+    max-width: 200px;
+    padding-top: 20px;
+}
+
+.html-inner, .css-inner, .js-inner, .tailwind-inner, .react-inner{
+    font-size: 3em;
+}
+
+
+.html-wrap, .css-wrap, .js-wrap, .tailwind-wrap, .react-wrap{
+    flex-basis: 200px;
+    flex-grow: 1;
+    background-color: #181818;
+    padding: 40px 0 ;
+    border-radius: 10px;
+}
+
+.tailwind-img{
+    max-width: 200px;
+    padding: 50px 0;
+}
+
+.logo-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    text-align: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* ============SECTION 3============== */
+.job-wrap{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.available{
+    font-family: 'Roboto Flex';
+    margin-bottom: 20px;
+}
+
+.job-done{
+    font-size: .8em;
+    color: #544F51;
+}
+
+.talk-div, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.talk-btn{
+    padding: .6rem 2rem;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.talk-btn:hover{
+    background-color: #181818;
+    color: antiquewhite;
+    transition: background-color 0.9s;
+    animation: pulse 1s infinite;
+}
+
+
+
+/* SECTION 4 FOR SOCIAL MEDIA HANDLES */
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.githublogo, .xlogo, .inlogo{
+    max-width: 30px;
+    background-color: white;
+    padding: 5px;
+}
+
+.xlogo, .inlogo{
+    margin-left: 50px;
+}
+
+.githublogo:hover, .xlogo:hover, .inlogo:hover{
+    background-color: #181818;
+    color: antiquewhite;
+    transition: background-color 0.9s;
+    animation: pulse 1s infinite;
+}
+
+/* ==========FOOTER=========== */
+.footer-inner{
+    font-size: .8em;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/* ==========================================PROJECTS PAGE STYLE========================================== */
+.geritch, .agency, .living, .fox{
+    width: 100%;
+}
+
+.agency, .living, .fox{
+    margin-top: 100px;
+}
+
+.geritch-img, .agency-img, .living-img, .fox-img{
+    width: 100%;
+}
+
+.geritch-btn, .agency-btn, .living-btn, .fox-btn{
+    background-color: white;
+    font-size: 1.3em;
+    padding: 1em 3em;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.geritch-btn:hover, .agency-btn:hover, .living-btn:hover, .fox-btn:hover{
+    background-color: #181818;
+    color: antiquewhite;
+    transition: background-color 0.9s;
+    animation: pulse 1s infinite;
+}
+
+
+/* ====================MEDIA QUERIES FOR LARGER SCREENS */
+  @media screen and (min-width:768px){
+    /* =======NAV===== */
+    .dev-name{
+        font-size: 2em;
+    }
+
+    .web-dev{
+        font-size: 6em;
+        max-width: 500px;
+    }
+
+    .dev-craft{
+        max-width: 300px;
+    }
+
+    /* ========SECTION 3========= */
+    .available{
+        font-size: 2em;
+    }
+    
+  }
