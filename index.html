@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Moh</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
@@ -19,12 +20,12 @@
         </h1>
       </a>
 
-        <a href="" class="mail">olrunnsholamawzis@gmail.com</a>
+        <a href="" class="mail">olrunsholamawzis@gmail.com</a>
     </nav>
 
     <div class="main-container">
         <section>
-            <div class="">
+            <div class=""  data-aos="zoom-in" data-aos-duration="3000">
                 <h2 class="dev-name">
                     I’m Olorunshola Moses
                 </h2>
@@ -55,7 +56,7 @@
                 </p>
             </div>
             <div class="logo-flex">
-                <div class="html-wrap">
+                <div data-aos="fade-down-right" data-aos-duration="1000" class="html-wrap">
                     <p class="html-inner">
                         HTML
                     </p>
@@ -65,7 +66,7 @@
                     </div>
                 </div>
 
-                <div class="css-wrap">
+                <div data-aos="zoom-in-up" class="css-wrap" data-aos-duration="3000">
                     <p class="css-inner">
                         CSS
                     </p>
@@ -75,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="js-wrap">
+                <div data-aos="fade-down-left" data-aos-duration="1000" class="js-wrap">
                     <p class="js-inner">
                         Javascript
                     </p>
@@ -85,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="tailwind-wrap">
+                <div data-aos="fade-down-right" data-aos-duration="2000" class="tailwind-wrap">
                     <p class="tailwind-inner">
                         Tailwind CSS
                     </p>
@@ -96,7 +97,7 @@
                 </div>
 
 
-                <div class="react-wrap">
+                <div data-aos="fade-down-left" data-aos-duration="2000" class="react-wrap">
                     <p class="react-inner">
                         React.js
                     </p>
@@ -111,7 +112,7 @@
 
 
             <!-- SECTION 3 -->
-        <section>
+        <section data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
             <div class=" job-wrap">
                 <h3 class="available">
                     I’m currently available for all frontend roles.
@@ -123,7 +124,7 @@
             </div>
 
             <div class="talk-div">
-                <a href="">
+                <a href="mailto:olrunsholamawzis@gmail.com">
                     <button class="talk-btn">
                         contact me
                     </button>
@@ -164,5 +165,11 @@
 
     // Update the copyright element with the current year
     document.getElementById('currentYear').textContent = currentYear;
+</script>
+
+        <!-- ====================MOTION LIB============ -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </html>

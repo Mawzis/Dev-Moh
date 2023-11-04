@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
 
     <div class="main-container">
         <section>
-            <div class="">
+            <div data-aos="zoom-out-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="">
                 <a href="https://gerichtmoh.netlify.app/">
                     <div class="geritch">
                         <img src="./geritch.png" alt="" class="geritch-img">
@@ -38,7 +39,7 @@
 
 
 
-            <div class="">
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="">
                 <a href="https://mawzisagency.netlify.app/">
                     <div class="agency">
                         <img src="./agency.png" alt="" class="agency-img">
@@ -54,7 +55,7 @@
 
 
 
-            <div class="">
+            <div data-aos="zoom-out-down" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="">
                 <a href="https://mohlivingcost.netlify.app/">
                     <div class="living">
                         <img src="./living.png" alt="" class="living-img">
@@ -68,7 +69,7 @@
                 </a>
             </div>
 
-            <div class="">
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="">
                 <a href="https://newfox-mawzis.vercel.app/">
                     <div class="fox">
                         <img src="./fox.png" alt="" class="fox-img">
@@ -115,5 +116,11 @@
 
     // Update the copyright element with the current year
     document.getElementById('currentYear').textContent = currentYear;
+</script>
+
+       <!-- ====================MOTION LIB============ -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </html>
