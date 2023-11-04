@@ -54,8 +54,12 @@ nav{
 
 
 /* THE MAIN BODY CONTENT STYLES */
+.dev-name{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
 .web-dev{
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bolder;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -63,14 +67,15 @@ nav{
 
 .dev-craft{
     color: #544F51;
-    font-size: .8em;
+    font-size: .9em;
+    margin-top: 2rem;
 }
 
 .work-btn{
     padding: .6em 2em .6em 2em;
     font-size: 1.5em;
     cursor: pointer;
-    margin: 2rem 0 3rem 1.5rem;
+    margin: 3rem 0 3rem 1.5rem;
     font-weight: bold;
     border-radius: 10px;
 }
