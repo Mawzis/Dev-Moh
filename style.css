@@ -54,6 +54,9 @@ nav{
 
 
 /* THE MAIN BODY CONTENT STYLES */
+.moh-wrap{
+    margin-top: 100px;
+}
 .dev-name{
     font-size: 2em;
     margin-bottom: 1.5em;
@@ -247,6 +250,10 @@ nav{
 }
 
 
+
+
+
+
 /* ====================MEDIA QUERIES FOR LARGER SCREENS */
   @media screen and (min-width:768px){
     /* =======NAV===== */
@@ -261,6 +268,11 @@ nav{
 
     .dev-craft{
         max-width: 300px;
+    }
+
+    /* =============SECTION 1=============== */
+    .moh-wrap{
+        margin-top: 0;
     }
 
     /* ========SECTION 3========= */
